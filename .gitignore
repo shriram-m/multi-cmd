@@ -1,0 +1,68 @@
+# Multi Command Runner - .gitignore
+
+# Generated output directories
+*_run_*
+*_build_*
+output_*/
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Log files
+*.log
+
+# Test artifacts
+test_output/
+test_results/
+
+# User-specific configuration
+.env
+.env.local
+config.local.*
+
+# Dependencies (if any future scripts need them)
+node_modules/
+vendor/
+
+# Archives
+*.tar
+*.tar.gz
+*.zip
+*.rar
+
+# Executable files (in case of compiled test programs)
+*.exe
+*.out
+a.out
+
+# Python bytecode (if any Python integration is added)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated documentation
+docs/_build/
