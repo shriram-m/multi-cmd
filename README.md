@@ -100,7 +100,7 @@ multi_cmd.sh -c "python -m pytest tests/" -l \
     PYTHON_VERSION=3.8,3.9,3.10 TEST_CONFIG=unit,integration
 ```
 
-## 🔍 How Combinations Work
+## How Combinations Work
 
 The script generates all possible combinations of the provided variables. Here's how it works:
 
